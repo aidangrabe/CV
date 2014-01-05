@@ -1,0 +1,6 @@
+/err.txt
+
+# temp files
+*~
+*.swp
+.sass-cache

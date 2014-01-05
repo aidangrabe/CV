@@ -1,0 +1,13 @@
+#container {
+    & > header {
+        border-bottom: 1px solid $col-header-border;
+        h1 {
+            clear: both;
+        }
+        ul {
+            float: right;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

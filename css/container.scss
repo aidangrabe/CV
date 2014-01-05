@@ -1,0 +1,17 @@
+body, html {
+    background: $col-background;
+    font: 14px Arial, Verdana sans-serif;
+}
+
+#container {
+    background: #FFF;
+    box-shadow: 0 0 20px darken($col-background, 10%);
+    margin: auto;
+    max-width: $size-large;
+    padding: 40px 20px;
+    @media screen and (min-width: $size-large) {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 40px auto;
+    }
+}
